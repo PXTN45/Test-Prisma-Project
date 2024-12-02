@@ -12,7 +12,6 @@ const getAll = async (req: Request, res: Response) => {
   }
 };
 
-
 const getByName = async (req: Request, res: Response) => {
   const name = req.query.name;
   try {
